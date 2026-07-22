@@ -21,8 +21,8 @@
     "TypeScript/ESM project builds with pnpm; pnpm build && pnpm test && pnpm lint all pass"
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\home-energy-savings\\PLAN.md",
-    "C:\\code\\elyos\\packages\\schema\\src\\schemas.ts",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\home-energy-savings\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\packages\\schema\\src\\schemas.ts",
     "https://web.dev/learn/pwa/",
     "https://www.energy.gov/energysaver/energy-saver"
   ],

@@ -343,11 +343,11 @@ with safety-sensitive topics handled as link-out; (4) is **product-neutral** (no
 lead-gen) and collects **no telemetry/PII** (inputs stay on device); and (5) is
 **adopted/endorsed by a named partner org and available in that community's languages.** Until a
 partner is secured, criterion (5) is **outstanding** and the project is "publicly usable" but not yet
-"shipped" by Elyos's *delivered, not merged* bar.
+"shipped" by Hee-Lee Oss's *delivered, not merged* bar.
 
 **"Publicly shipped (no partner)" success state.** Criteria (1)–(4) can be fully met without a
 partner. If, by a **decision point at 6 months after the M4 build is production-ready**, no partner is
-secured, the steward + Elyos governance may declare **"Publicly Shipped (generic public good)"** —
+secured, the steward + Hee-Lee Oss governance may declare **"Publicly Shipped (generic public good)"** —
 deployed, announced, and distributed via community/library/mutual-aid channels, outcomes tracked by
 best-effort self-report. This is a recognized, honest success state; a later endorsement upgrades the
 status rather than gating launch.
@@ -402,7 +402,7 @@ content/calculators to localize). M3 depends on M1/M2 (engine + i18n). M4 depend
 ## Work breakdown
 
 The itemized, schema-mapped backlog lives in **TASKS.md**, organized by the M0–M4 milestones above.
-Each task maps to an Elyos Task JSON (see schema), is sized (small/medium/large), risk-tagged, and
+Each task maps to a Hee-Lee Oss Task JSON (see schema), is sized (small/medium/large), risk-tagged, and
 names a reviewer. TASKS.md also includes acceptance criteria for the most important tasks per
 milestone, milestone Definitions of Done, a backlog, and a complete example Task JSON.
 
@@ -421,7 +421,7 @@ milestone, milestone Definitions of Done, a backlog, and a complete example Task
   into beneficiaries' hands.
 - **Partner / requestor: TO BE SECURED** — a named org (weatherization/community-action/energy-equity
   org, library system, or similar) confirming need, priority audiences/regions, and target languages.
-- **Elyos governance/board:** arbitrates edge cases and risk-tier decisions per the good-deed
+- **Hee-Lee Oss governance/board:** arbitrates edge cases and risk-tier decisions per the good-deed
   definition; owns the product-neutrality and conflict-of-interest policy.
 
 ## Dependencies & integrations
@@ -432,7 +432,7 @@ milestone, milestone Definitions of Done, a backlog, and a complete example Task
 - **Tooling/libraries:** PWA/service-worker tooling (e.g. Workbox), UI framework (TBD), i18n + units
   library, test stack (Vitest, Playwright, axe-core/pa11y), client PDF/print.
 - **Hosting:** static host (GitHub Pages / Netlify / Cloudflare Pages) — no app server.
-- **Elyos pieces:** Task schema (`packages/schema`), CLI workspace prep / PR flow (donated lane),
+- **Hee-Lee Oss pieces:** Task schema (`packages/schema`), CLI workspace prep / PR flow (donated lane),
   good-deed definition & risk-tier governance, review/sign-off process.
 - **Human/expert dependency:** calculator/methodology reviewers, safety-content SMEs, and a partner
   org — the gating non-software dependencies.
@@ -463,7 +463,7 @@ concerns: (1) supply-chain risk in dependencies; (2) service-worker cache poison
 (4) leakage of user-entered inputs; (5) hostile forks implying false endorsement.
 
 **Controls.**
-- **No secrets** in the app; nothing to leak. No API keys/tokens in code, logs, or receipts (Elyos
+- **No secrets** in the app; nothing to leak. No API keys/tokens in code, logs, or receipts (Hee-Lee Oss
   rule). Static hosting only.
 - **No telemetry / no PII / inputs stay on device:** defense in depth — (1) strict CSP with
   **`connect-src 'none'`** (plus locked `script-src`/`img-src`/`font-src 'self'`) blocks runtime
@@ -515,10 +515,10 @@ concerns: (1) supply-chain risk in dependencies; (2) service-worker cache poison
 
 ## References
 
-- Elyos work rules — `C:\code\elyos\CLAUDE.md`
-- Good-deed definition & risk tiers — `C:\code\elyos\docs\good-deed-definition.md`
-- Task schema — `C:\code\elyos\packages\schema\src\schemas.ts`
-- Portfolio roadmap — `C:\code\elyos\planning\ROADMAP.md`
+- Hee-Lee Oss work rules — `C:\code\hee-lee-oss\CLAUDE.md`
+- Good-deed definition & risk tiers — `C:\code\hee-lee-oss\docs\good-deed-definition.md`
+- Task schema — `C:\code\hee-lee-oss\packages\schema\src\schemas.ts`
+- Portfolio roadmap — `C:\code\hee-lee-oss\planning\ROADMAP.md`
 - Project proposal — **none on file** (`governance/proposals/home-energy-savings.md` TO BE CREATED)
 - Authoritative sources (license-checked per use): US DOE / Energy.gov / Energy Saver, US EIA (incl.
   RECS), NREL (per-dataset license), EPA / ENERGY STAR (factual, trademark-aware), relevant national

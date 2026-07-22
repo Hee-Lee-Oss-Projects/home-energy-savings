@@ -270,7 +270,7 @@ engine generalizes well beyond energy.
   savings calculators.
 - **Reusable sourced-guidance + program-currency engine** (the meta spin-off): factor the citation/
   provenance/review-log schema, the golden-test harness, the staleness/hard-invalidation machinery, and
-  the program-currency tracker into a shared Elyos package every "authoritative open guidance" deed reuses.
+  the program-currency tracker into a shared Hee-Lee Oss package every "authoritative open guidance" deed reuses.
 
 ---
 

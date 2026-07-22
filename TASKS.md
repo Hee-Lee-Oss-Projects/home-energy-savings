@@ -2,9 +2,9 @@
 
 > Status: Draft · Version: 0.1.0 · Last updated: 2026-06-28 · Owner: TBD (maintainer) · Lane: donated
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
-Each task below becomes an Elyos **Task JSON** validated against
+Each task below becomes a Hee-Lee Oss **Task JSON** validated against
 `packages/schema/src/schemas.ts`. Field mapping:
 
 - `id` — stable slug ID, e.g. `home-energy-savings-app-001`.
@@ -254,7 +254,7 @@ tracking + content/calculator re-validation cadence operational. This satisfies 
 *Definition of Shipped (partner-adopted)*.
 
 **Decision point (so a finished toolkit isn't stranded):** if no partner is secured by **6 months
-after the M4 production build is ready**, the steward + Elyos governance declare **"Publicly Shipped
+after the M4 production build is ready**, the steward + Hee-Lee Oss governance declare **"Publicly Shipped
 (generic public good)"** — criteria (1)–(4) met, deployed and distributed directly/via
 library/community/mutual-aid channels, outcomes tracked by best-effort self-report. This is a
 recognized success state; a later partner endorsement upgrades the status to "partner-adopted" rather
@@ -306,8 +306,8 @@ exists on record).
     "TypeScript/ESM project builds with pnpm; pnpm build && pnpm test && pnpm lint all pass"
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\home-energy-savings\\PLAN.md",
-    "C:\\code\\elyos\\packages\\schema\\src\\schemas.ts",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\home-energy-savings\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\packages\\schema\\src\\schemas.ts",
     "https://web.dev/learn/pwa/",
     "https://www.energy.gov/energysaver/energy-saver"
   ],
